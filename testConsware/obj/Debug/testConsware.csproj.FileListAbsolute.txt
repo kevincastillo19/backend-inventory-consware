@@ -93,3 +93,7 @@ C:\Users\Consware\source\repos\testConsware\testConsware\obj\Debug\testConsware.
 C:\Users\Consware\source\repos\testConsware\testConsware\obj\Debug\testConsware.csproj.CopyComplete
 C:\Users\Consware\source\repos\testConsware\testConsware\obj\Debug\testConsware.dll
 C:\Users\Consware\source\repos\testConsware\testConsware\obj\Debug\testConsware.pdb
+C:\Users\Consware\source\repos\backend-inventory-consware\testConsware\obj\Debug\testConsware.csproj.AssemblyReference.cache
+C:\Users\Consware\source\repos\backend-inventory-consware\testConsware\obj\Debug\testConsware.csproj.CoreCompileInputs.cache
+C:\Users\Consware\source\repos\backend-inventory-consware\testConsware\obj\Debug\testConsware.dll
+C:\Users\Consware\source\repos\backend-inventory-consware\testConsware\obj\Debug\testConsware.pdb

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using testConsware.Models;
 namespace testConsware.Controllers
 {
     public class UserController : Controller
@@ -27,14 +28,15 @@ namespace testConsware.Controllers
 
         // POST: User/Create
         [HttpPost]
-        public string Login(FormCollection collection)
+        public string Create(FormCollection collection)
         {
             try
             {
-                
-                Console.WriteLine("Parametros");
-                Console.WriteLine(Request.Params);
-                return "200"; 
+                string email = Request.Params.Get("email");
+                string password = Request.Params.Get("password");
+                int shop= int.Parse(Request.Params.Get("shop"));
+                User user = new User(email,password,shop);
+                return "User created"; 
 
             }
             catch

@@ -10,6 +10,6 @@ namespace testConsware.Models
         public int id { get; set; }
         public String doc_num { get; set; }
         public int shop { get; set; }
-        
+
     }
 }
